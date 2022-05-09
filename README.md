@@ -4,13 +4,13 @@ A demo project which is based on Flutter and build with MVVM and Clear Architect
 
 The app uses https://www.themoviedb.org REST API to get the data about movies
 
-## MVVM + [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) + [GetX](https://pub.dev/packages/get)
+## MVVM + [The Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) + [GetX](https://pub.dev/packages/get)
 
 ## Description
 
 
-This app has two screens. The main one is Popular Movie list which fetchs the data from https://api.themoviedb.org `GET /movie/popular` and display the list of items. The second screen is details of movie which gets `movieId` from the main screen then fetch the data from `GET
-/movie/{movie_id}` and display the details
+This app has two screens. The main one is Popular Movie list screen which fetches the data from https://api.themoviedb.org `GET /movie/popular` endpoint and displays the list of movie items. The second screen displays the details of selected movie which receives `movieId` from the main screen then fetches the data from `GET
+/movie/{movieId}` endpoint and displays the details
 
 ## Architecture Overview
 
